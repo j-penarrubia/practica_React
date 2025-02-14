@@ -26,7 +26,7 @@ function App() {
         <Banner />
         <h2 className="title">Nuestros productos estrella</h2>
         {/* La primera sección usa un fondo azul, sobrescribiendo el valor por defecto */}
-        <ProductSection backgroundColor="#007BFF" products={productsSection1} />
+        <ProductSection products={productsSection1} />
         <ProductSection products={productsSection2} />
         <Footer />
       </div>
