@@ -33,6 +33,11 @@ body {
   color: black;
 }
 
+.topnav a.split:hover {
+  background-color: #ff66ff;
+  border-radius: 50%;
+}
+
 .topnav a.split {
   padding: 0;
   float: right;
